@@ -18,4 +18,6 @@ public interface ProjectService {
 
     Optional<Project> findById(Long id);
 
+    Optional<Project> findByProjectName(String name);
+
 }
