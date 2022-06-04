@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: project-cloud
+  profiles:
+    active: prod
+server:
+  servlet:
+    context-path: /project_cloud/v1
+  port: 9050
